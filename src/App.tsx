@@ -15,8 +15,9 @@ import {
   Truck 
 } from 'lucide-react';
 import { useState } from 'react';
+import THE_LOGO from './images/logo.png';
 
-const LOGO_URL = "https://storage.googleapis.com/aistudio-user-content-1/user-content-1-66df37e5-829d-4c3e-8c6e-ccda36473bc4";
+const LOGO_URL = THE_LOGO;
 
 // --- Mock Data ---
 const PRODUCTS = [

@@ -15,18 +15,17 @@ import {
   Truck 
 } from 'lucide-react';
 import { useState } from 'react';
-import THE_LOGO from './images/logo.png';
 
-const LOGO_URL = THE_LOGO;
+const LOGO_URL = "/logo.png";
 
 // --- Mock Data ---
 const PRODUCTS = [
   { id: 1, name: "Pro Wireless Headphones", price: "Rs. 3,500", image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80", badge: "Hot Deal" },
   { id: 2, name: "Smart Fitness Watch", price: "Rs. 2,900", image: "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500&q=80", badge: "New" },
-  { id: 3, name: "Premium Cosmetics Set", price: "Rs. 1,800", image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=500&q=80" },
+  { id: 3, name: "Premium Cosmetics Set", price: "Rs. 1,800", image: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=500&q=80" },
   { id: 4, name: "Classic Aviator Sunglasses", price: "Rs. 1,200", image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&q=80" },
   { id: 5, name: "Stainless Steel Flask", price: "Rs. 3,100", image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&q=80" },
-  { id: 6, name: "Portable Bluetooth Speaker", price: "Rs. 4,500", image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&q=80", badge: "Trending" },
+  { id: 6, name: "Portable Bluetooth Speaker", price: "Rs. 4,500", image: "https://images.unsplash.com/photo-1589003071515-55ff6eb5d1e6?w=500&q=80", badge: "Trending" },
   { id: 7, name: "Fast Charge Powerbank", price: "Rs. 2,100", image: "https://images.unsplash.com/photo-1628191137573-dee64e727614?w=500&q=80" },
   { id: 8, name: "Minimalist Leather Tote", price: "Rs. 5,500", image: "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&q=80", badge: "Bestseller" },
 ];

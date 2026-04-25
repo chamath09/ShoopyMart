@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-purple: #4A0E4E; /* Deep purple */
+  --color-brand-blue: #00F0FF; /* Electric blue */
+  --color-brand-pink: #FF0055; /* Hot pink */
+  
+  --font-inter: "Inter", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+body {
+  @apply text-slate-800 bg-slate-50;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-poppins;
+}
+
+@keyframes blob {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+.animate-blob {
+  animation: blob 7s infinite;
+}
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+

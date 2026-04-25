@@ -23,7 +23,7 @@ const LOGO_URL = THE_LOGO;
 const PRODUCTS = [
   { id: 1, name: "Pro Wireless Headphones", price: "Rs. 3,500", image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80", badge: "Hot Deal" },
   { id: 2, name: "Smart Fitness Watch", price: "Rs. 2,900", image: "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500&q=80", badge: "New" },
-  { id: 3, name: "Premium Cosmetics Set", price: "Rs. 1,800", image: "https://images.unsplash.com/photo-1596462502278-27bf8ab4d7f5?w=500&q=80" },
+  { id: 3, name: "Premium Cosmetics Set", price: "Rs. 1,800", image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=500&q=80" },
   { id: 4, name: "Classic Aviator Sunglasses", price: "Rs. 1,200", image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&q=80" },
   { id: 5, name: "Stainless Steel Flask", price: "Rs. 3,100", image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&q=80" },
   { id: 6, name: "Portable Bluetooth Speaker", price: "Rs. 4,500", image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&q=80", badge: "Trending" },
